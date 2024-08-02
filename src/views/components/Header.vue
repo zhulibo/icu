@@ -1,16 +1,10 @@
 <script setup>
 import { useRouter, useRoute } from 'vue-router'
+import { BaseRoutes} from "@/router/index.js";
 
 const router = useRouter()
 const route = useRoute()
 
-let navList = [
-  {path: '/home', name: 'home'},
-  {path: '/mutant', name: 'mutant'},
-  {path: '/human', name: 'human'},
-  {path: '/equipment', name: 'equipment'},
-  {path: '/map', name: 'map'}
-]
 const navTo = (e) => {
   router.push({path: e})
 }
@@ -19,12 +13,16 @@ const navTo = (e) => {
 <template>
   <div class="header">
     <ul class="nav">
-      <li v-for="item in navList"
+      <template v-for="item in BaseRoutes">
+        <li
+          v-if="item.meta && item.meta.isNav"
           :key="item.name"
           @click="navTo(item.path)"
           :class="{active: item.name === route.name}">
-        {{item.name}}
-      </li>
+          {{item.name}}
+        </li>
+      </template>
+
     </ul>
   </div>
 </template>
