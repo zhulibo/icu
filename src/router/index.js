@@ -50,6 +50,15 @@ const BaseRoutes = [
     },
     component: () => import('@/views/map/map.vue'),
   },
+  {
+    name: 'privacy',
+    path: '/privacy',
+    meta: {
+      title: 'privacy',
+      isNav: true,
+    },
+    component: () => import('@/views/privacy/privacy.vue'),
+  },
 ]
 
 const router = createRouter({
