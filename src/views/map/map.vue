@@ -5,13 +5,19 @@
   <div class="wrapper">
     <div class="map">
       <div class="item item1">
-        <div class="map-name">迷雾都市 foggy city</div>
+        <div class="map-name">Foggy City 迷雾都市</div>
       </div>
       <div class="item item2">
-        <div class="map-name">农场 farm</div>
+        <div class="map-name">Farm 农场</div>
+      </div>
+      <div class="item item2">
+        <div class="map-name">Space Prison 太空监狱</div>
       </div>
       <div class="item item3">
-        <div class="map-name">训练场 training field</div>
+        <div class="map-name">Training Field 训练场</div>
+      </div>
+      <div class="item item3">
+        <div class="map-name">Arena 角斗场</div>
       </div>
     </div>
   </div>

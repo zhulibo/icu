@@ -47,10 +47,10 @@ let equipments = ref([
         <tr>
           <th>name</th>
           <th>damage</th>
-          <th>fireRate</th>
+          <th>fire rate</th>
           <th>ammo</th>
-          <th>reloadTime</th>
-          <th>moveSpeed</th>
+          <th>reload time</th>
+          <th>move speed</th>
         </tr>
         </thead>
         <tbody>

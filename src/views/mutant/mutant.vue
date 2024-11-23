@@ -8,7 +8,7 @@ let mutants = ref([
   { name: 'Hunter 猎手', attribute: '', skill: '', CD: '', damage: '', health: '' },
   { name: 'Cooker 厨师', attribute: '', skill: '', CD: '', damage: '', health: '' },
   { name: 'Corrupter 腐蚀者', attribute: '', skill: '', CD: '', damage: '', health: '' },
-  { name: 'Tracker 追踪者', attribute: '', skill: '', CD: '', damage: '', health: '' },
+  { name: 'Corpseherder 赶尸者', attribute: '', skill: '', CD: '', damage: '', health: '' },
 ]);
 </script>
 

@@ -19,6 +19,13 @@
         </div>
         <p>SEAL</p>
       </li>
+      <li>
+        <div class="img-ct">
+          <img src="../../assets/img/0.jpg" alt="">
+          <img src="../../assets/img/0.jpg" alt="">
+        </div>
+        <p>PLA</p>
+      </li>
     </ul>
   </div>
 </template>
