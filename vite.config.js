@@ -2,6 +2,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import vueDevTools from 'vite-plugin-vue-devtools'
 
 import svgLoader from 'vite-svg-loader'
 import viteCompression from 'vite-plugin-compression';
@@ -23,13 +24,9 @@ export default defineConfig({
     //   },
     // }
   },
-  resolve: {
-    alias: {
-      '@': fileURLToPath(new URL('./src', import.meta.url))
-    }
-  },
   plugins: [
     vue(),
+    // vueDevTools(),
     svgLoader(),
     viteCompression({
       threshold: 10240, // 大于10k才压缩
@@ -38,6 +35,11 @@ export default defineConfig({
     //   filename: 'dist/stats.html'
     // })
   ],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  },
   build: {
     chunkSizeWarningLimit: 1000,
     rollupOptions: {

@@ -6,9 +6,6 @@ let mutants = ref([
   { name: 'Ghost 幽灵', attribute: '', skill: '', CD: '', damage: '', health: '' },
   { name: 'Smoker 烟鬼', attribute: '', skill: '', CD: '', damage: '', health: '' },
   { name: 'Hunter 猎手', attribute: '', skill: '', CD: '', damage: '', health: '' },
-  { name: 'Cooker 厨师', attribute: '', skill: '', CD: '', damage: '', health: '' },
-  { name: 'Corrupter 腐蚀者', attribute: '', skill: '', CD: '', damage: '', health: '' },
-  { name: 'Corpseherder 赶尸者', attribute: '', skill: '', CD: '', damage: '', health: '' },
 ]);
 </script>
 
@@ -42,8 +39,13 @@ let mutants = ref([
 </template>
 
 <style scoped lang="pcss">
+.wrapper{
+  padding: 10px 0 40px;
+}
 .table-ct{
+  box-sizing: border-box;
   margin-top: 10px;
+  padding: 0 10px;
   width: 100%;
   max-width: 1200px;
   overflow-x: auto;

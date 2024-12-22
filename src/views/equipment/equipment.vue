@@ -69,8 +69,13 @@ let equipments = ref([
 </template>
 
 <style scoped lang="pcss">
+.wrapper{
+  padding: 10px 0 40px;
+}
 .table-ct{
+  box-sizing: border-box;
   margin-top: 10px;
+  padding: 0 10px;
   width: 100%;
   max-width: 1200px;
   overflow-x: auto;

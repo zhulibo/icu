@@ -7,22 +7,22 @@
     <ul class="human">
       <li>
         <div class="img-ct">
-          <img src="../../assets/img/0.jpg" alt="">
-          <img src="../../assets/img/0.jpg" alt="">
+          <img src="../../assets/img/bg.jpg" alt="">
+          <img src="../../assets/img/bg.jpg" alt="">
         </div>
         <p>SAS</p>
       </li>
       <li>
         <div class="img-ct">
-          <img src="../../assets/img/0.jpg" alt="">
-          <img src="../../assets/img/0.jpg" alt="">
+          <img src="../../assets/img/bg.jpg" alt="">
+          <img src="../../assets/img/bg.jpg" alt="">
         </div>
         <p>SEAL</p>
       </li>
       <li>
         <div class="img-ct">
-          <img src="../../assets/img/0.jpg" alt="">
-          <img src="../../assets/img/0.jpg" alt="">
+          <img src="../../assets/img/bg.jpg" alt="">
+          <img src="../../assets/img/bg.jpg" alt="">
         </div>
         <p>PLA</p>
       </li>
@@ -31,6 +31,9 @@
 </template>
 
 <style scoped lang="pcss">
+.wrapper{
+  padding: 10px 0 40px;
+}
 .human{
   li{
     margin: 10px 10px 0;

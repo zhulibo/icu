@@ -2,15 +2,27 @@
 import Header from "@/views/components/Header.vue";
 import Footer from "@/views/components/Footer.vue";
 
-import {useRoute} from "vue-router";
+import {useRouter, useRoute} from "vue-router";
 
+const router = useRouter();
 const route = useRoute();
+
+const DelFooterPages = [
+  'map',
+  'game',
+]
 </script>
 
 <template>
   <Header />
-  <RouterView />
-  <Footer v-if="route.name !== 'map'" />
+
+  <router-view v-slot="{ Component }">
+    <keep-alive :include="['game']">
+      <component :is="Component" />
+    </keep-alive>
+  </router-view>
+
+  <Footer v-if="!DelFooterPages.includes(route.name)" />
 </template>
 
 <style lang="pcss">
