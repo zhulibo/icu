@@ -4,20 +4,23 @@
 <template>
   <div class="wrapper">
     <div class="map">
-      <div class="item item1">
-        <div class="map-name">Foggy City 迷雾都市</div>
+      <div class="item item-Colosseum">
+        <div class="map-name">Colosseum 斗兽场</div>
       </div>
-      <div class="item item2">
+      <div class="item item-CrossStreet">
+        <div class="map-name">CrossStreet 十字街</div>
+      </div>
+      <div class="item item-Dust">
+        <div class="map-name">Dust Dust</div>
+      </div>
+      <div class="item item-Farm">
         <div class="map-name">Farm 农场</div>
       </div>
-      <div class="item item2">
-        <div class="map-name">Space Prison 太空监狱</div>
-      </div>
-      <div class="item item3">
-        <div class="map-name">Training Field 训练场</div>
-      </div>
-      <div class="item item3">
+      <div class="item item-Arena">
         <div class="map-name">Arena 角斗场</div>
+      </div>
+      <div class="item item-TrainingField">
+        <div class="map-name">TrainingField 训练场</div>
       </div>
     </div>
   </div>
@@ -50,13 +53,22 @@
       text-shadow: rgba(0,0,0,0.8) 0 0 5px;
     }
   }
-  .item1{
+  .item-Colosseum{
     background: url("@/assets/img/bg.jpg") center center / cover no-repeat;
   }
-  .item2{
+  .item-CrossStreet{
     background: url("@/assets/img/bg.jpg") center center / cover no-repeat;
   }
-  .item3{
+  .item-Dust{
+    background: url("@/assets/img/bg.jpg") center center / cover no-repeat;
+  }
+  .item-Farm{
+    background: url("@/assets/img/bg.jpg") center center / cover no-repeat;
+  }
+  .item-Arena{
+    background: url("@/assets/img/bg.jpg") center center / cover no-repeat;
+  }
+  .item-TrainingField{
     background: url("@/assets/img/bg.jpg") center center / cover no-repeat;
   }
 }

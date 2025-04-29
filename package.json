@@ -10,7 +10,6 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
-    "@orillusion/core": "^0.8.5-dev.2",
     "dayjs": "^1.11.13",
     "pinia": "^2.2.6",
     "vue": "^3.5.13",

@@ -59,15 +59,6 @@ const BaseRoutes = [
     },
     component: () => import('@/views/privacy/privacy.vue'),
   },
-  {
-    name: 'game',
-    path: '/game',
-    meta: {
-      title: 'game',
-      isNav: true,
-    },
-    component: () => import('@/views/game/game.vue'),
-  },
 ]
 
 const router = createRouter({

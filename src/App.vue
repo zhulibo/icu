@@ -7,7 +7,7 @@ import {useRouter, useRoute} from "vue-router";
 const router = useRouter();
 const route = useRoute();
 
-const DelFooterPages = [
+const PagesWithoutFooter = [
   'map',
   'game',
 ]
@@ -22,7 +22,7 @@ const DelFooterPages = [
     </keep-alive>
   </router-view>
 
-  <Footer v-if="!DelFooterPages.includes(route.name)" />
+  <Footer v-if="!PagesWithoutFooter.includes(route.name)" />
 </template>
 
 <style lang="pcss">

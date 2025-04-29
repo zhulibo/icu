@@ -5,7 +5,7 @@ let mutants = ref([
   { name: 'Tank 坦克', attribute: '', skill: '', CD: '', damage: '', health: '' },
   { name: 'Ghost 幽灵', attribute: '', skill: '', CD: '', damage: '', health: '' },
   { name: 'Smoker 烟鬼', attribute: '', skill: '', CD: '', damage: '', health: '' },
-  { name: 'Hunter 猎手', attribute: '', skill: '', CD: '', damage: '', health: '' },
+  { name: 'Terminator 终结者', attribute: '', skill: '', CD: '', damage: '', health: '' },
 ]);
 </script>
 
